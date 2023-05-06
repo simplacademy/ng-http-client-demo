@@ -1,0 +1,8 @@
+<h1>Update Country</h1>
+<form [formGroup]="form" (ngSubmit)="update()">
+    <div>Code</div>
+    <div><input type="text" formControlName="code"></div>
+    <div>Name</div>
+    <div><input type="text" formControlName="name"></div>
+    <div><button type="submit">Update Country</button></div>
+</form>

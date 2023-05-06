@@ -1,0 +1,35 @@
+{
+  "countries": [
+    {
+      "id": 2,
+      "code": "US",
+      "name": "United States of America"
+    },
+    {
+      "id": 3,
+      "code": "FR",
+      "name": "France"
+    },
+    {
+      "id": 4,
+      "code": "BR",
+      "name": "Brazil"
+    }
+  ],
+  "users": [],
+  "live-scores": [
+    {
+      "id": 1,
+      "duration": 50,
+      "team1": {
+        "name": "Argentina",
+        "goals": 2
+      },
+      "team2": {
+        "name": "France",
+        "goals": 1
+      },
+      "completed": true
+    }
+  ]
+}

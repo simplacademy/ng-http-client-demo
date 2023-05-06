@@ -1,0 +1,10 @@
+<h1>Countries List</h1>
+<div *ngIf="backendError">System error contact administrator.</div>
+<ol>
+    <li *ngFor="let country of countries">
+        <a routerLink="/update/{{country.id}}">Edit</a>&nbsp;
+        <a routerLink="/delete/{{country.id}}">Delete</a> 
+        {{country?.name}} ({{country?.code}})
+    </li>
+</ol>
+<a routerLink="/add">Add Country</a>

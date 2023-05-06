@@ -1,0 +1,25 @@
+GET /countries HTTP/1.1
+Host: localhost:3000
+###
+POST /countries HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "id": 0,
+    "code": "FR",
+    "name": "France"
+}
+###
+PUT /countries/6 HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "id": 6,
+    "code": "NZ",
+    "name": "New Zealand"
+}
+###
+DELETE /countries/6 HTTP/1.1
+Host: localhost:3000
